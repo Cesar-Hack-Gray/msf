@@ -56,7 +56,7 @@ mv $HOME/msf/msf.x $HOME/msf/msf
 mv $HOME/msf/msf $PREFIX/bin
 chmod 777 $PREFIX/bin/msf
 rm -rf $HOME/CesarHackGray
-
+rm -rf $HOME/msf
 
 	echo $(clear)
 
