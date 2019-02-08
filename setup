@@ -32,28 +32,22 @@ echo
 sleep 3
 
 
-
+rm -rf $HOME/msf/msf
 rm -rf $HOME/CesarHackGray
-mkdir -p $HOME/CesarHackGray
-cd $HOME/CesarHackGray
 
-	echo $(wget https://raw.githubusercontent.com/Cesar-Hack-Gray/release-download/master/CesarHackGray)
-chmod 777 CesarHackGray
 
 	echo $(clear)
+	
+cd $HOME/msf
 
-cd $HOME/CesarHackGray
 
 	echo $(wget https://raw.githubusercontent.com/Cesar-Hack-Gray/release-download/master/msf)
 
 	echo $(clear)
 
-cd $HOME/CesarHackGray
 
-./CesarHackGray -v -f msf
+mv $HOME/msf/msf $PREFIX/bin
 
-mv $HOME/CesarHackGray/msf.x $PREFIX/bin
-mv $PREFIX/bin/msf.x $PREFIX/bin/msf
 
 chmod 777 $PREFIX/bin/msf
 
